@@ -1,0 +1,22 @@
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+}
+body{
+
+    background: linear-gradient(135deg,yellow,rgb(79, 168, 223),yellowgreen);
+}
+nav a:hover {
+    text-decoration: underline;
+    color: red;
+   
+}
+h1 {
+
+     background: linear-gradient(135deg, yellow, #2575fc);
+     display: inline-block;
+     padding: 10px;
+     border-radius: 20px;    
+}
+
+

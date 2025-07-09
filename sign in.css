@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(135deg, yellow, #2575fc);
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+
+}
+.signin-container {
+
+    background:lightskyblue;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+   
+}
+
+h1 {
+
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color:  #444;
+    font-weight: 600;
+}
+
+input {
+width: 100%;
+padding: 0.7rem;
+border: 1px solid white;
+border-radius: 10px;
+font-size: 1rem;
+transition: border-color 0.3s;
+
+}
+.form-group{
+
+    display: block;
+    margin-bottom: 0.3rem;
+    color: #444;
+    font-weight: 600;
+}
+button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: burlywood;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #1a5ed8;
+}
+label {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: chocolate;
+  font-weight: 600;
+}
+
+
+
